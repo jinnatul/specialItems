@@ -1,0 +1,158 @@
+# Details:
+
+
+1) <link> 
+
+<link rel ="stylesheet" type="text/css" href="Style.css"> 
+
+Explain: 
+
+The HTML External Resource Link element (<link>) specifies relationships between the current document and an external resource.Example: Stylesheet file and other file add. 
+
+2) <title></title> 
+
+<title>Html Tags</title> 
+
+Explain: 
+
+Document's title that is shown in a Browser’s title bar or a page's tab. 
+
+3) <address></address> 
+
+<address><a href="mailto:morolswediu@gmail.com">morolswediu@gmail.com</a></address> 
+
+Explain: 
+
+Provides contact information for a person or people, or for an organization. 
+
+4) <h1></h1>, <h2></h2>, <h3></h3>, <h4></h4>, <h5></h5>, <h6></h6> 
+
+<h1>Morol</h1> <h2>Morol</h2> <h3>Morol</h3> <h4>Morol</h4> <h5>Morol</h5> <h6>Morol</h6> 
+
+Explain: 
+
+six levels of section headings. <h1> is the highest section level and <h6> is the lowest. 
+
+5) <ul></ul> <li></li> 
+
+<ul> <li>Id: 171-35-1957</li> <li>Name: Morol</li> </ul> 
+
+Explain: 
+
+ul means -> unorder list. li means-> list elements. 
+
+6) <ol></ol> <li></li> 
+
+<ol> <li>Id: 171-35-1957</li> <li>Name: Morol</li> </ol> 
+
+Explain: 
+
+ol means -> order list. li means-> list elements. 
+
+7) <p> </p> 
+
+<p>I am Morol</p> 
+
+Explain: 
+
+Represents a paragraph. 
+
+8) <br> 
+
+<p> Yes<br>I am Morol</p> 
+
+Explain: 
+
+Produces a line break in text. 
+
+9) <i> </i> 
+
+<i>I am Morol</i> 
+
+Explain: 
+
+Displayed in italic type. 
+
+10) <mark> </mark> 
+
+<p>Most <mark>salamanders</mark> are nocturnal</p> 
+
+Explain: 
+
+Represents text which is marked or highlighted for reference or notation purposes. 
+
+11) <s> </s> 
+
+<p>I am <s> a problem solver. My name is </s> Morol</p> 
+
+Explain: 
+
+Renders text with a strikethrough, or a line through it. 
+
+12) <small> </small> 
+
+<p>I am <small> a problem solver. My name is </small> Morol</p> 
+
+Explain: 
+
+Makes the text font size one size smaller. 
+
+13) <strong> </strong> 
+
+<p>I am <strong> a problem solver. My name is </strong> Morol</p> 
+
+Explain: 
+
+Indicates that its contents have strong importance, 
+
+14) <sub> </sub> 
+
+<p>Molecule is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub></p> 
+
+Explain: 
+
+Specifies in line text which should be displayed as sub script for solely typographical reasons. 
+
+15) <sup> </sup> 
+
+<p>The <b>Pythagorean theorem is </b><var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> = <var>c<sup>2</sup></var></p> 
+
+16) <audio> </audio> 
+
+<audio controls src="/opt/My File/morol/Audio/x.mp3"> <code>audio</code> </audio> 
+
+Explain:  
+
+Add Audio on HTML Page. 
+
+17) <img> 
+
+<img src="me1.jpg" height="42" width="42"> 
+
+Explain: 
+
+Add Image on HTML Page. 
+
+18) <script> </script> 
+
+<script src="script.js"></script> 
+
+Explain: 
+
+Add js file on HTML page. 
+
+19) <u> </u> 
+
+<p>Most <u>salamanders</u> are nocturnal</p> 
+
+Explain: 
+
+Underline on a paragraph 
+
+20) <marquee> </marquee> 
+
+<marquee direction = ""> Hi, I am Morol</marquee> 
+
+Explain: 
+
+Used to create a scrolling text or an image. 
