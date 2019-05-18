@@ -1,5 +1,4 @@
-# Details:
-
+Details:
 
 1) <link> 
 
