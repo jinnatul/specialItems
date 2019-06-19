@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculate</title>
+  
+    <script>
+    
+    function fun()
+{
+    var name = document.getElementById("data_name").value;
+
+    var num = document.getElementById("data_num").value;
+
+    var dropdown = document.getElementById("data_dropdown").value;
+
+    var radio;
+    var item = document.getElementsByName('gender');
+    for(var i = 0; i < item.length; i++){
+         if(item[i].checked){
+             radio = item[i].value;
+         }
+    }
+
+    var item2 = document.forms[3];
+    var checkbox;
+    for(var i = 0; i < item2.length; i++){
+        if(item2[i].checked) checkbox = item2[i].value;
+        else alert("No select CheckBox");
+    }
+
+    alert("Customer Name: " + name);
+    alert("Product Quantity: " + num);
+    alert("DropDown Data: " + dropdown);
+    alert("Radio Button Data: " + radio);
+    alert("CheckBox Data: " + checkbox);
+}
+    
+    </script>
+
+
+</head>
+
+<body>
+
+    <!--Text and Number Input-->
+    <form>
+        <input type="text" id = "data_name" placeholder="Enter Name"><br>
+        <input type="number" min = "1" id = "data_num" placeholder="Enter Quantity"><br>
+    </form>
+
+
+     <!---DropDown List-->
+    <form> 
+        <select id = "data_dropdown">
+                <option>Item 1</option>
+                <option >Item 2</option>
+                <option >Item 3</option>
+        </select><br>
+
+    </form>
+
+        
+    
+    <!--Radio Button-->
+    <form id = "data_radio">
+            <input type="radio" name="gender" value="Yes(Inside Dhaka 50Tk)">Yes(Inside Dhaka 50Tk)<br>
+            <input type="radio" name="gender" value="Yes(Outside Dhaka 100Tk)">Yes(Outside Dhaka 100Tk)<br>
+            <input type="radio" name="gender" value="No">No<br>
+    </form>
+    
+
+    <!---CheckBox-->
+    <form>
+            <input type="checkbox" name="" id="data_checkbox" value="yes">Are you Student ? <br>
+    </form>
+        
+
+    <!---Button-->
+    <input type="button" value="Click Me" onclick="fun()"> <br>
+
+
+</body>
+
+</html>
