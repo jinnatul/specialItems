@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="card hoverable z-depth-1-half">
+                <div class="card-content">
+                    
+                    <form action="">
+                        <div class="col s12">
+
+                                <!---Input Text & Encryption or decryption-->
+                                <div class="row">
+                                        <!--Material textarea-->
+                                    <div class="input-field col-8">
+                                        <h5><b>Input Text</b></h5>
+                                        <textarea class="materialize-textarea" id="inputTextID" placeholder="Input Text Write here..."></textarea>
+                                    </div>
+        
+                                    <div class="input-field col-4">
+                                        <h5><b>Type Choose</b></h5>
+                                        <p>
+                                            <label>
+                                                <input name="group1" type="radio" checked />
+                                                <span>Encryption</span>
+                                            </label>
+                                            </p>
+                                            <p>
+                                            <label>
+                                                <input name="group1" type="radio" />
+                                                <span>Decryption</span>
+                                            </label>
+                                            </p>
+                                    </div>
+                                </div>
+        
+                                <!---Algo name & key text-->
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <h5><b>Algorithm Choose</b></h5>
+                                        <p>
+                                            <label>
+                                                <input name="group2" type="radio" checked />
+                                                <span>Caesar Cipher</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input name="group2" type="radio" />
+                                                <span>One Time Pad</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input name="group2" type="radio" checked />
+                                                <span>Transposition</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input name="group2" type="radio" />
+                                                <span>Playfair</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input name="group2" type="radio" checked />
+                                                <span>Hill Cipher</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input name="group2" type="radio" />
+                                                <span>Bacon Cipher</span>
+                                            </label>
+                                        </p>
+                                    </div>
+        
+                                    <div class="input-field col s6">
+                                        <h5><b>Key Text</b></h5>
+                                        <textarea class="materialize-textarea" id="keyTextID" placeholder="Key Text Write here..."></textarea>
+                                    </div>
+
+                                    <div class="input-field col s3">
+                                        <h5><b>Algorithm Rules</b></h5>
+                                        <table class="highlight">
+                                            <tbody>
+                                                <tr>
+                                                    <td>Rules 1:</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Rules 2:</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Rules 3:</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+        
+                            </div>
+                            <div class="center-align">
+                                <div class="input-field col s3">
+                                    <button class="waves-effect waves-light btn" type="submit">Convert Here<i class="fa fa-cog fa-spin fa-2x fa-fw"></i></button>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+                        
+    </body>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+</html>
