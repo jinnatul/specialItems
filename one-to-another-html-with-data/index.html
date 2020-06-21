@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data send one to another page.....</title> 
+    </head>
+    <body>
+        <div id="divID">Hi, Morol </div>
+        <input type="button" id="btn" value="pass Data">
+
+        <script src="jquery.min.js"></script>
+         <script>
+            let data = $('#divID').text();
+            window.localStorage.setItem('user', JSON.stringify(data));
+            $('#btn').click(function() { 
+                window.location.replace("info.html");
+            })
+         </script>
+    </body>
+</html>
